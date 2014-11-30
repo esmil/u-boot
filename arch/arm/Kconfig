@@ -585,6 +585,10 @@ config TARGET_MX51_EFIKAMX
 	bool "Support mx51_efikamx"
 	select CPU_V7
 
+config TARGET_MX51_NA04
+	bool "Support the Hercules eCAFE Slim/EX HD laptops"
+	select CPU_V7
+
 config TARGET_VISION2
 	bool "Support vision2"
 	select CPU_V7
@@ -919,6 +923,7 @@ source "board/freescale/mx6sxsabresd/Kconfig"
 source "board/freescale/vf610twr/Kconfig"
 source "board/gateworks/gw_ventana/Kconfig"
 source "board/genesi/mx51_efikamx/Kconfig"
+source "board/hercules/mx51_na04/Kconfig"
 source "board/gumstix/pepper/Kconfig"
 source "board/h2200/Kconfig"
 source "board/hale/tt01/Kconfig"

@@ -1,0 +1,6 @@
+MX51_NA04 BOARD
+M:	Emil Renner Berthing <u-boot@esmil.dk>
+S:	Maintained
+F:	board/hercules/mx51_na04/
+F:	include/configs/mx51_na04.h
+F:	configs/mx51_na04_defconfig

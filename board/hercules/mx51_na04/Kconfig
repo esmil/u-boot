@@ -1,0 +1,15 @@
+if TARGET_MX51_NA04
+
+config SYS_BOARD
+	default "mx51_na04"
+
+config SYS_VENDOR
+	default "hercules"
+
+config SYS_SOC
+	default "mx5"
+
+config SYS_CONFIG_NAME
+	default "mx51_na04"
+
+endif
